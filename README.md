@@ -54,7 +54,7 @@ nmap -T4 -sS 192.168.56.106
 ```
 
 📸 **Screenshot Placeholder**
-`images/nmap_scan.png`
+`image/nmap_scan.png`
 
 **Open ports discovered included:**
 
@@ -85,8 +85,8 @@ Initial testing for SQL injection was conducted on the login form using a single
 
 📸 **Screenshot Placeholders**
 
-* `images/login_page.png`
-* `images/sql_injection_error.png`
+* `image/login_page.png`
+* `image/sql_injection_error.png`
 
 A login bypass was successfully achieved using basic SQL injection techniques, granting access to the application.
 
@@ -102,7 +102,7 @@ feroxbuster -u http://192.168.56.106
 ```
 
 📸 **Screenshot Placeholder**
-`images/feroxbuster_results.png`
+`image/feroxbuster_results.png`
 
 Several interesting directories and PHP files were discovered, including user-related pages.
 
@@ -142,7 +142,7 @@ ssh john@192.168.56.106
 ```
 
 📸 **Screenshot Placeholder**
-`images/ssh_access_john.png`
+`image/ssh_access_john.png`
 
 This provided shell access as the user **john**.
 
@@ -193,8 +193,8 @@ ls /
 
 📸 **Screenshot Placeholders**
 
-* `images/root_shell.png`
-* `images/whoami_root.png`
+* `image/root_shell.png`
+* `image/whoami_root.png`
 
 Successful execution confirmed **root-level access**.
 
